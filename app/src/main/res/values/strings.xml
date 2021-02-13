@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Examen3</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Registrar</string>
+    <string name="login">Acceder</string>
+    <string name="requisitosPassword">Debe tener al menos 8 caracteres, una mayuscula y una minuscula</string>
+    <string name="prefs_file">PREFERENCE_FILE_KEY</string>
+
+
+</resources>
