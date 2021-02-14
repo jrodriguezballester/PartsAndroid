@@ -64,17 +64,23 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-            // Ir a Posicion Fija
-             buttonMapFijo.setOnClickListener {
-                 val intent = Intent(this, MapsActivity1::class.java);
-                 startActivity(intent)
-             }
+        // Ir a Posicion Fija
+        buttonMapFijo.setOnClickListener {
+            val intent = Intent(this, MapsActivity1::class.java);
+            startActivity(intent)
+        }
 
-             // Ir a Ubicacion real
-             buttonMapReal.setOnClickListener {
-                 val intent = Intent(this, MapsActivity2::class.java);
-                 startActivity(intent)
-             }
+        // Ir a Ubicacion real
+        buttonMapReal.setOnClickListener {
+            val intent = Intent(this, MapsActivity2::class.java);
+            startActivity(intent)
+        }
 
+        // ir a DataBase activity
+        buttonDatabase.setOnClickListener {
+            val intent = Intent(this, DatabaseActivity::class.java)
+            intent.putExtra("email", email)
+            startActivity(intent)
+        }
     }
 }

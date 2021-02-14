@@ -31,7 +31,7 @@
             android:layout_height="8dp" />
 
         <EditText
-            android:id="@+id/passWordEditText"
+            android:id="@+id/addressEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -56,7 +56,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/registerButton"
+                android:id="@+id/saveButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

@@ -60,9 +60,9 @@ class AuthActivity : AppCompatActivity() {
 
         //////  BOTON  REGISTRARSE      //////////////////////////////////////////
 
-        registerButton.setOnClickListener {
+        saveButton.setOnClickListener {
             var myEmail = emailEditText.text.toString()
-            var myPassword = passWordEditText.text.toString()
+            var myPassword = addressEditText.text.toString()
             var utilidades = Utilidades()
             if (utilidades.isValidEmail(myEmail) && utilidades.isValidPassword(myPassword)) {
                 // registrar en Firebase
@@ -99,7 +99,7 @@ class AuthActivity : AppCompatActivity() {
 
         loginButton.setOnClickListener {
             var myEmail = emailEditText.text.toString()
-            var myPassword = passWordEditText.text.toString()
+            var myPassword = addressEditText.text.toString()
 
             if (utilidades.isValidEmail(myEmail) && utilidades.isValidPassword(myPassword)) {
 
