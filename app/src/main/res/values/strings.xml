@@ -6,6 +6,8 @@
     <string name="login">Acceder</string>
     <string name="requisitosPassword">Debe tener al menos 8 caracteres, una mayuscula y una minuscula</string>
     <string name="prefs_file">PREFERENCE_FILE_KEY</string>
+    <string name="title_activity_maps1">Map</string>
+    <string name="title_activity_maps2">Map</string>
 
 
 </resources>

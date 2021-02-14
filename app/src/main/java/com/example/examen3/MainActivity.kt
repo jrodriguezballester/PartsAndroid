@@ -64,16 +64,17 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        /*     // Ir a Posicion Fija
+            // Ir a Posicion Fija
              buttonMapFijo.setOnClickListener {
-                 val intent = Intent(this, LocalizacionFijaActivity::class.java);
+                 val intent = Intent(this, MapsActivity1::class.java);
                  startActivity(intent)
              }
+
              // Ir a Ubicacion real
              buttonMapReal.setOnClickListener {
                  val intent = Intent(this, MapsActivity2::class.java);
                  startActivity(intent)
              }
-     */
+
     }
 }
